@@ -1,9 +1,10 @@
 ---
-title: SHORT PAPER
+title: Short Paper
+layout: aoas
 author:
-  - name: FREDERICK BOEHM
+  - name: Frederick Boehm
     email: FJBOEHM@WISC.EDU
-    affiliation: DEPARTMENT OF STATISTICS, UNIVERSITY OF WISCONSIN-MADISON
+    affiliation: Department of Statistics, University of Wisconsin-Madison
 abstract: |
   This is the abstract.
 
