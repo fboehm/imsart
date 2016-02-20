@@ -1,0 +1,4 @@
+name: IMS Journal Article
+description: >
+ Template for creating an article for submission to an IMS journal
+create_dir: true
