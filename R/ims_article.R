@@ -11,7 +11,7 @@
 #'
 #' \dontrun{
 #' library(rmarkdown)
-#' draft("MyArticle.Rmd", template = "elsevier_article", package = "rticles")
+#' draft("MyArticle.Rmd", template = "ims_article", package = "imsart")
 #' }
 #'
 #' @export
@@ -19,7 +19,7 @@ ims_article <- function(...,
                              keep_tex = TRUE,
                              md_extensions = c("-autolink_bare_uris")) {
   inherit_pdf_document(...,
-                       template = find_resource("elsevier_article", "template.tex"),
+                       template = find_resource("ims_article", "template.tex"),
                        keep_tex = keep_tex,
                        md_extensions = md_extensions)
 }

@@ -1,6 +1,6 @@
 find_file <- function(template, file) {
   template <- system.file("rmarkdown", "templates", template, file,
-                          package = "rticles")
+                          package = "imsart")
   if (template == "") {
     stop("Couldn't find template file ", template, "/", file, call. = FALSE)
   }
