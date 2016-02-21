@@ -3,6 +3,7 @@ rmarkdown template for IMS journal articles
 
 ## Todo
 
-- [ ] create a new YAML field to accommodate Arxiv imprinting
-  - [ ] this will require a slight modification to template.tex, I think
+- [x] create a new YAML field to accommodate Arxiv imprinting
+  - [x] this will require a slight modification to template.tex, I think
 - [ ] formatting for bibliography needed!
+- [ ] make yaml fields to match required & suggested fields in ims-template.tex

@@ -1,10 +1,14 @@
 ---
-title: Short Paper
-layout: aoas
+title: A Very Short Paper
+runtitle: Short Paper 
+layout: preprint
+arxiv: 0.0.0.0
 author:
   - name: Frederick Boehm
-    email: FJBOEHM@WISC.EDU
-    affiliation: Department of Statistics, University of Wisconsin-Madison
+  - email: FJBOEHM@WISC.EDU
+  - affiliation: Department of Statistics, University of Wisconsin-Madison
+  - footnote: Corresponding author
+runauthor: Boehm, et al. 
 abstract: |
   This is the abstract.
 
@@ -13,18 +17,10 @@ abstract: |
 output: imsart::ims_article
 ---
 
-_Text based on elsarticle sample manuscript, see [http://www.elsevier.com/author-schemas/latex-instructions#elsarticle](http://www.elsevier.com/author-schemas/latex-instructions#elsarticle)_
+_For details of how I created this template, see the post on my blog, http://recentchatter.wordpress.com/_
 
 
-The Elsevier article class
-==========================
 
-#### Installation
-
-If the document class *elsarticle* is not available on your computer,
-you can download and install the system package *texlive-publishers*
-(Linux) or install the LaTeX package *elsarticle* using the package
-manager of your TeX installation, which is typically TeX Live or MikTeX.
 
 #### Usage
 

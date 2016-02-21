@@ -159,6 +159,14 @@ $endfor$
 
 
 \usepackage[nomarkers]{endfloat}
+%%%%%Fred's additions%%%%
+\usepackage{amsthm,amsmath,natbib}
+\RequirePackage[colorlinks,citecolor=blue,urlcolor=blue]{hyperref}
+$if(arxiv)$
+\arxiv{arXiv:$arxiv$}
+$endif$
+
+
 
 \begin{document}
 \begin{frontmatter}
@@ -167,7 +175,7 @@ $endfor$
   $for(author)$
   \author[$author.affiliation$]{$author.name$$if(author.footnote)$\corref{c1}$endif$}
   $if(author.email)$ \ead{$author.email$} $endif$
-  $if(author.footnote)$ \cortext[c1]{$author.footnote$}$endif$
+  $if(author.footnote)$ \corref{$author.footnote$}$endif$
   $endfor$
   $for(address)$
   \address[$address.code$]{$address.address$}
